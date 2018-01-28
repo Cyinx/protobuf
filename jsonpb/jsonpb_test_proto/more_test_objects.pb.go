@@ -26,7 +26,7 @@ It has these top-level messages:
 */
 package jsonpb
 
-import proto "github.com/gogo/protobuf/proto"
+import proto "github.com/Cyinx/protobuf/proto"
 import fmt "fmt"
 import math "math"
 

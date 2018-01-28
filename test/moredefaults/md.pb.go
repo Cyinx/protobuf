@@ -13,11 +13,11 @@
 */
 package moredefaults
 
-import proto "github.com/gogo/protobuf/proto"
+import proto "github.com/Cyinx/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import _ "github.com/gogo/protobuf/gogoproto"
-import test "github.com/gogo/protobuf/test/example"
+import _ "github.com/Cyinx/protobuf/gogoproto"
+import test "github.com/Cyinx/protobuf/test/example"
 
 import bytes "bytes"
 

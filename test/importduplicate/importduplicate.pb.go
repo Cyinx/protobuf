@@ -12,16 +12,16 @@ It has these top-level messages:
 */
 package importduplicate
 
-import proto "github.com/gogo/protobuf/proto"
+import proto "github.com/Cyinx/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import _ "github.com/gogo/protobuf/gogoproto"
-import sortkeys "github.com/gogo/protobuf/test/importduplicate/sortkeys"
-import proto1 "github.com/gogo/protobuf/test/importduplicate/proto"
+import _ "github.com/Cyinx/protobuf/gogoproto"
+import sortkeys "github.com/Cyinx/protobuf/test/importduplicate/sortkeys"
+import proto1 "github.com/Cyinx/protobuf/test/importduplicate/proto"
 
 import strings "strings"
 import reflect "reflect"
-import sortkeys1 "github.com/gogo/protobuf/sortkeys"
+import sortkeys1 "github.com/Cyinx/protobuf/sortkeys"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

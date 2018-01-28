@@ -31,8 +31,8 @@ package main
 import (
 	"strings"
 
-	"github.com/gogo/protobuf/vanity"
-	"github.com/gogo/protobuf/vanity/command"
+	"github.com/Cyinx/protobuf/vanity"
+	"github.com/Cyinx/protobuf/vanity/command"
 )
 
 func main() {

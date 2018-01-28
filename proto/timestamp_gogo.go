@@ -45,7 +45,7 @@ func (*timestamp) ProtoMessage()  {}
 func (*timestamp) String() string { return "timestamp<string>" }
 
 func init() {
-	RegisterType((*timestamp)(nil), "gogo.protobuf.proto.timestamp")
+	RegisterType((*timestamp)(nil), "gogo.protobuf.proto.timestamp", func() interface{} { return new(timestamp) })
 }
 
 func (o *Buffer) decTimestamp() (time.Time, error) {

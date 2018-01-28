@@ -14,7 +14,7 @@
 */
 package types
 
-import proto "github.com/gogo/protobuf/proto"
+import proto "github.com/Cyinx/protobuf/proto"
 import fmt "fmt"
 import math "math"
 
@@ -22,7 +22,7 @@ import strconv "strconv"
 
 import strings "strings"
 import reflect "reflect"
-import sortkeys "github.com/gogo/protobuf/sortkeys"
+import sortkeys "github.com/Cyinx/protobuf/sortkeys"
 
 import binary "encoding/binary"
 

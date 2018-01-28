@@ -111,8 +111,8 @@ and the following test code:
 package union
 
 import (
-	"github.com/gogo/protobuf/gogoproto"
-	"github.com/gogo/protobuf/protoc-gen-gogo/generator"
+	"github.com/Cyinx/protobuf/gogoproto"
+	"github.com/Cyinx/protobuf/protoc-gen-gogo/generator"
 )
 
 type union struct {

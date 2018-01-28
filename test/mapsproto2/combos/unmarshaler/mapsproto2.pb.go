@@ -15,15 +15,15 @@
 */
 package proto2_maps
 
-import proto "github.com/gogo/protobuf/proto"
+import proto "github.com/Cyinx/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import _ "github.com/gogo/protobuf/gogoproto"
+import _ "github.com/Cyinx/protobuf/gogoproto"
 
-import github_com_gogo_protobuf_test_custom "github.com/gogo/protobuf/test/custom"
-import github_com_gogo_protobuf_test "github.com/gogo/protobuf/test"
+import github_com_gogo_protobuf_test_custom "github.com/Cyinx/protobuf/test/custom"
+import github_com_gogo_protobuf_test "github.com/Cyinx/protobuf/test"
 
-import descriptor "github.com/gogo/protobuf/protoc-gen-gogo/descriptor"
+import descriptor "github.com/Cyinx/protobuf/protoc-gen-gogo/descriptor"
 import gzip "compress/gzip"
 import bytes "bytes"
 import ioutil "io/ioutil"
@@ -32,7 +32,7 @@ import strconv "strconv"
 
 import strings "strings"
 import reflect "reflect"
-import sortkeys "github.com/gogo/protobuf/sortkeys"
+import sortkeys "github.com/Cyinx/protobuf/sortkeys"
 
 import io "io"
 import binary "encoding/binary"

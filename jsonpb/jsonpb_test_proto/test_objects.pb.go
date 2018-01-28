@@ -3,16 +3,16 @@
 
 package jsonpb
 
-import proto "github.com/gogo/protobuf/proto"
+import proto "github.com/Cyinx/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import google_protobuf "github.com/gogo/protobuf/types"
-import google_protobuf1 "github.com/gogo/protobuf/types"
-import google_protobuf2 "github.com/gogo/protobuf/types"
-import google_protobuf3 "github.com/gogo/protobuf/types"
-import google_protobuf4 "github.com/gogo/protobuf/types"
+import google_protobuf "github.com/Cyinx/protobuf/types"
+import google_protobuf1 "github.com/Cyinx/protobuf/types"
+import google_protobuf2 "github.com/Cyinx/protobuf/types"
+import google_protobuf3 "github.com/Cyinx/protobuf/types"
+import google_protobuf4 "github.com/Cyinx/protobuf/types"
 
-// skipping weak import gogoproto "github.com/gogo/protobuf/gogoproto"
+// skipping weak import gogoproto "github.com/Cyinx/protobuf/gogoproto"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

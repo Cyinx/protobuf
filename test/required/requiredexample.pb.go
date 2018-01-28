@@ -15,10 +15,10 @@
 */
 package required
 
-import proto "github.com/gogo/protobuf/proto"
+import proto "github.com/Cyinx/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import _ "github.com/gogo/protobuf/gogoproto"
+import _ "github.com/Cyinx/protobuf/gogoproto"
 
 import binary "encoding/binary"
 

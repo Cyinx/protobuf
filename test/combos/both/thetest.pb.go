@@ -75,18 +75,18 @@
 */
 package test
 
-import proto "github.com/gogo/protobuf/proto"
+import proto "github.com/Cyinx/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import _ "github.com/gogo/protobuf/gogoproto"
+import _ "github.com/Cyinx/protobuf/gogoproto"
 
-import github_com_gogo_protobuf_test_custom "github.com/gogo/protobuf/test/custom"
-import github_com_gogo_protobuf_test_custom_dash_type "github.com/gogo/protobuf/test/custom-dash-type"
+import github_com_gogo_protobuf_test_custom "github.com/Cyinx/protobuf/test/custom"
+import github_com_gogo_protobuf_test_custom_dash_type "github.com/Cyinx/protobuf/test/custom-dash-type"
 
 import bytes "bytes"
-import sortkeys "github.com/gogo/protobuf/sortkeys"
+import sortkeys "github.com/Cyinx/protobuf/sortkeys"
 
-import descriptor "github.com/gogo/protobuf/protoc-gen-gogo/descriptor"
+import descriptor "github.com/Cyinx/protobuf/protoc-gen-gogo/descriptor"
 import gzip "compress/gzip"
 import ioutil "io/ioutil"
 

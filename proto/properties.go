@@ -932,7 +932,7 @@ var (
 
 // RegisterType is called from generated code and maps from the fully qualified
 // proto name to the type (pointer to struct) of the protocol buffer.
-func RegisterType(x Message, name string, new_func func() interface{}) {
+func RegisterType(x Message, name string, args ...interface{}) {
 	if _, ok := protoTypes[name]; ok {
 		// TODO: Some day, make this a panic.
 		log.Printf("proto: duplicate proto type registered: %s", name)
@@ -941,7 +941,9 @@ func RegisterType(x Message, name string, new_func func() interface{}) {
 	t := reflect.TypeOf(x)
 	protoTypes[name] = t
 	revProtoTypes[t] = name
-	newProtoFuncMaps[t] = new_func
+	if len(args) >= 1 {
+		newProtoFuncMaps[t] = args[0].(func() interface{})
+	}
 }
 
 func MessageNewFunc(t reflect.Type) func() interface{} {

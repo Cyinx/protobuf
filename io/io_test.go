@@ -31,8 +31,8 @@ package io_test
 import (
 	"bytes"
 	"encoding/binary"
-	"github.com/gogo/protobuf/io"
-	"github.com/gogo/protobuf/test"
+	"github.com/Cyinx/protobuf/io"
+	"github.com/Cyinx/protobuf/test"
 	goio "io"
 	"math/rand"
 	"testing"

@@ -58,10 +58,10 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/gogo/protobuf/gogoproto"
-	"github.com/gogo/protobuf/proto"
-	descriptor "github.com/gogo/protobuf/protoc-gen-gogo/descriptor"
-	plugin "github.com/gogo/protobuf/protoc-gen-gogo/plugin"
+	"github.com/Cyinx/protobuf/gogoproto"
+	"github.com/Cyinx/protobuf/proto"
+	descriptor "github.com/Cyinx/protobuf/protoc-gen-gogo/descriptor"
+	plugin "github.com/Cyinx/protobuf/protoc-gen-gogo/plugin"
 )
 
 // generatedCodeVersion indicates a version of the generated code.
@@ -1422,7 +1422,7 @@ func (g *Generator) generateImports() {
 	// do, which is tricky when there's a plugin, just import it and
 	// reference it later. The same argument applies to the fmt and math packages.
 	if gogoproto.ImportsGoGoProto(g.file.FileDescriptorProto) {
-		g.PrintImport(g.Pkg["proto"], g.ImportPrefix+"github.com/gogo/protobuf/proto")
+		g.PrintImport(g.Pkg["proto"], g.ImportPrefix+"github.com/Cyinx/protobuf/proto")
 		if gogoproto.RegistersGolangProto(g.file.FileDescriptorProto) {
 			g.PrintImport(g.Pkg["golang_proto"], g.ImportPrefix+"github.com/golang/protobuf/proto")
 		}

@@ -14,12 +14,12 @@
 */
 package unrecognizedgroup
 
-import proto "github.com/gogo/protobuf/proto"
+import proto "github.com/Cyinx/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import _ "github.com/gogo/protobuf/gogoproto"
+import _ "github.com/Cyinx/protobuf/gogoproto"
 
-import descriptor "github.com/gogo/protobuf/protoc-gen-gogo/descriptor"
+import descriptor "github.com/Cyinx/protobuf/protoc-gen-gogo/descriptor"
 import gzip "compress/gzip"
 import bytes "bytes"
 import ioutil "io/ioutil"

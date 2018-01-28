@@ -20,15 +20,15 @@
 */
 package theproto3
 
-import proto "github.com/gogo/protobuf/proto"
+import proto "github.com/Cyinx/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import _ "github.com/gogo/protobuf/gogoproto"
-import test "github.com/gogo/protobuf/test/combos/both"
+import _ "github.com/Cyinx/protobuf/gogoproto"
+import test "github.com/Cyinx/protobuf/test/combos/both"
 
-import github_com_gogo_protobuf_test_custom "github.com/gogo/protobuf/test/custom"
+import github_com_gogo_protobuf_test_custom "github.com/Cyinx/protobuf/test/custom"
 
-import descriptor "github.com/gogo/protobuf/protoc-gen-gogo/descriptor"
+import descriptor "github.com/Cyinx/protobuf/protoc-gen-gogo/descriptor"
 import gzip "compress/gzip"
 import bytes "bytes"
 import ioutil "io/ioutil"
@@ -37,7 +37,7 @@ import strconv "strconv"
 
 import strings "strings"
 import reflect "reflect"
-import sortkeys "github.com/gogo/protobuf/sortkeys"
+import sortkeys "github.com/Cyinx/protobuf/sortkeys"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

@@ -16,11 +16,11 @@ package proto
 import testing "testing"
 import rand "math/rand"
 import time "time"
-import proto1 "github.com/gogo/protobuf/proto"
-import jsonpb "github.com/gogo/protobuf/jsonpb"
+import proto1 "github.com/Cyinx/protobuf/proto"
+import jsonpb "github.com/Cyinx/protobuf/jsonpb"
 import fmt "fmt"
 import math "math"
-import _ "github.com/gogo/protobuf/gogoproto"
+import _ "github.com/Cyinx/protobuf/gogoproto"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto1.Marshal

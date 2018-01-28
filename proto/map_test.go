@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gogo/protobuf/proto"
-	ppb "github.com/gogo/protobuf/proto/proto3_proto"
+	"github.com/Cyinx/protobuf/proto"
+	ppb "github.com/Cyinx/protobuf/proto/proto3_proto"
 )
 
 func marshalled() []byte {

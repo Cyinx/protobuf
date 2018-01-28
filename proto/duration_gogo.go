@@ -45,7 +45,7 @@ func (*duration) ProtoMessage()  {}
 func (*duration) String() string { return "duration<string>" }
 
 func init() {
-	RegisterType((*duration)(nil), "gogo.protobuf.proto.duration")
+	RegisterType((*duration)(nil), "gogo.protobuf.proto.duration", func() interface{} { return new(duration) })
 }
 
 func (o *Buffer) decDuration() (time.Duration, error) {
