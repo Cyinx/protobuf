@@ -3055,9 +3055,9 @@ func (g *Generator) generateMessage(message *Descriptor) {
 		fullName = *g.file.Package + "." + fullName
 	}
 
-	g.addInitf("%s.RegisterType((*%s)(nil), %q)", g.Pkg["proto"], ccTypeName, fullName)
+	g.addInitf("%s.RegisterType((*%s)(nil), %q,func() interface{} {return new(%s)})", g.Pkg["proto"], ccTypeName, fullName, ccTypeName)
 	if gogoproto.ImportsGoGoProto(g.file.FileDescriptorProto) && gogoproto.RegistersGolangProto(g.file.FileDescriptorProto) {
-		g.addInitf("%s.RegisterType((*%s)(nil), %q)", g.Pkg["golang_proto"], ccTypeName, fullName)
+		g.addInitf("%s.RegisterType((*%s)(nil), %q,func() interface{} {return new(%s)})", g.Pkg["golang_proto"], ccTypeName, fullName, ccTypeName)
 	}
 }
 
